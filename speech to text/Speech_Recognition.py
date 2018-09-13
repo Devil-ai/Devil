@@ -28,7 +28,7 @@ else:
 	r = sr.Recognizer()  
 	with sr.Microphone() as source:
 		os.system("clear") 
-   		print("Please wait. Calibrating microphone...")  
+   		print("Please wait for a sec. Calibrating microphone...")  
    # listen for 1 seconds and create the ambient noise energy level  
    		r.adjust_for_ambient_noise(source, duration=1)  
    		print("Say something!")  
