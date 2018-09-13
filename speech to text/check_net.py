@@ -4,5 +4,5 @@ try :
     urllib.urlopen(url)
     status = "Connected"
 except :
-    status = "Not connect"
+    status = "Not Connected"
 print status
